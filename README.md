@@ -42,20 +42,34 @@ Downloaded Excel File:
 
 ### Please find below the security measures you should implement on your end:
 • **SSL Communication**: All the communication with the operator should be done over SSL secured channel. Mandatory
+
 • **IP Whitelisting**: An operator must whitelist the Ezugi server IPs on his servers and should receive any Ezugi related requests only from the registered whitelisted Ips. Any requests related to Ezugi that are not being submitted from the registered Ezugi IPs should be discarded and Ezugi should be notified. Mandatory 
+
 • **Hash Signature Check**: An operator will receive on all requests coming from Ezugi a hash signature signed by a secret key that will be issued by Ezugi specifically for the operator. The hash signature will be created by using SHA256 hash algorithm and will create a signature by using a secret key and the request that is sent to the operator. An output format is base64 encoding. The operator should compare the received hash signature with his own signature that will be create by using the secret key and the received request. Mandatory. The latest version of API is attached. 
+
 • **New Token Creation on Authentication**: On each authentication for the same player, our system will have to receive a newly generated token. Token reuse will not be accepted. Please review your current implementation 
+
 • **Token Format**: A recommended token format for all our operators is UUID. A token should have at least 20 symbols which should be a mix of digits and characters. Please review your current implementation 
+
 • **Token Expiration**: Any token (initial authentication or financial) issued by an operator should have an expiration date and should expire if it will not be used after a short period of time. Initial authentication tokens should expire after 30-60 seconds while financial tokens, if not used, it should expire after 30-40 minutes. Please review your current implementation 
+
 • **Debit-Credit correlation**: Each credit transaction has a key named debitTransactionId. You should validate that each credit has the corresponding debit. Each debit could be related only to one credit. This function could be used for round closure. Mandatory.
+
 • **Round Financial Requests Counting**: On each game round, the number of debit requests equals the number of credit requests. If an operator receives several credit requests that is bigger than the number debit requests carrying the same game id, table id, round id, and seat id (Blackjack only) the credit requests should be discarded and Ezugi should be notified. Please review your current implementation
+
 In addition, we completed push balance API new implementation. If this functionality can be relevant for you, we will assist you to implement and test it. Push balance API and help doc hash signature check are attached.
 
 [[Live Casino API v3.1.8.pdf]]
+
 [[Push Balance 2.0.2.pdf]]
+
 [[Third Party API v2.0.pdf]]
+
 [[Debit - Credit Correlation v.2.pdf]]
+
 [[Hash Signature Check v.1.2.pdf]]
+
+---
 
 The player’s balance is shown in our system based on the Timestamp. The balance with the biggest (latest) timestamp will be shown. That's why it's important to set a correct timestamp to each transaction. The most critical is the last balance in a round, which always must be the one with the biggest timestamp. If the last balance does not have the correct timestamp, then the player may see invalid balance after the round will end or even will be prevented from further play due to insufficient funds, despite he won.
 
@@ -65,7 +79,7 @@ Example:
 You have 3 credit transactions.
 15$, 5$ and 10$. Client's balance before credits - 100$
 
-You may send in this order:
+**You may send in this order**:
 Credit 15, Balance 115, TS 1
 Credit 5, Balance 120, TS 2
 Credit 10, Balance 130 TS 3
