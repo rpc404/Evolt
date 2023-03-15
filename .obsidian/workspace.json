@@ -1,0 +1,164 @@
+{
+  "main": {
+    "id": "e97e2ef195cea79b",
+    "type": "split",
+    "children": [
+      {
+        "id": "bf82fad8d7b5016b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e3f4b7a37171097d",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "documents/Live Casino API v3.1.8.pdf"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d912e00a2d9b29c3",
+    "type": "split",
+    "children": [
+      {
+        "id": "b4c38b0c1fd40cf3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "530a2ccb7b23402c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "bb74b9281c6a7cf0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3b300f79610a8f8c",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c960332880a4008d",
+    "type": "split",
+    "children": [
+      {
+        "id": "e4b8427f8ebf89c3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5047e32364bb2581",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "documents/Live Casino API v3.1.8.pdf",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d067dfc554e76762",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "documents/Live Casino API v3.1.8.pdf",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "832919d9cf6ac368",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "a2417909032a3142",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "documents/Live Casino API v3.1.8.pdf"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "e3f4b7a37171097d",
+  "lastOpenFiles": [
+    "LICENSE",
+    "README.md.md",
+    "documents/Push Balance 2.0.2.pdf",
+    "documents/Debit - Credit Correlation v.2.pdf",
+    "documents/Third Party API v2.0.pdf",
+    "documents/Hash Signature Check v.1.2.pdf",
+    "documents/TEST CASES examples v.4.0.1.xlsx",
+    "documents/Live Casino API v3.1.8.pdf",
+    "documents",
+    "assets/Pasted image 20230315131538.png",
+    "assets",
+    "assets/Pasted image 20230315131709.png",
+    "assets/Pasted image 20230315131631.png",
+    "assets/Pasted image 20230315131554.png"
+  ]
+}
