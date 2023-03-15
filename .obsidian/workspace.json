@@ -11,9 +11,11 @@
             "id": "e3f4b7a37171097d",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "documents/Live Casino API v3.1.8.pdf"
+                "file": "README.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "documents/Live Casino API v3.1.8.pdf",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "documents/Live Casino API v3.1.8.pdf",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "documents/Live Casino API v3.1.8.pdf"
+                "file": "README.md"
               }
             }
           }
@@ -146,14 +148,14 @@
   },
   "active": "e3f4b7a37171097d",
   "lastOpenFiles": [
+    "documents/Live Casino API v3.1.8.pdf",
     "LICENSE",
-    "README.md.md",
+    "README.md",
     "documents/Push Balance 2.0.2.pdf",
     "documents/Debit - Credit Correlation v.2.pdf",
     "documents/Third Party API v2.0.pdf",
     "documents/Hash Signature Check v.1.2.pdf",
     "documents/TEST CASES examples v.4.0.1.xlsx",
-    "documents/Live Casino API v3.1.8.pdf",
     "documents",
     "assets/Pasted image 20230315131538.png",
     "assets",
